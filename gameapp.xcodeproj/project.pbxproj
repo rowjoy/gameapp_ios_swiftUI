@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		852F83BA2BD9090F009109D0 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F83B92BD9090F009109D0 /* SettingView.swift */; };
 		859BA7FA2BD6695C00485E58 /* gameappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BA7F92BD6695C00485E58 /* gameappApp.swift */; };
 		859BA7FC2BD6695C00485E58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BA7FB2BD6695C00485E58 /* ContentView.swift */; };
 		859BA7FE2BD6695E00485E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859BA7FD2BD6695E00485E58 /* Assets.xcassets */; };
-		859BA8012BD6695E00485E58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859BA8002BD6695E00485E58 /* Preview Assets.xcassets */; };
 		859BA80B2BD6695E00485E58 /* gameappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BA80A2BD6695E00485E58 /* gameappTests.swift */; };
 		859BA8152BD6695E00485E58 /* gameappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BA8142BD6695E00485E58 /* gameappUITests.swift */; };
 		859BA8172BD6695E00485E58 /* gameappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BA8162BD6695E00485E58 /* gameappUITestsLaunchTests.swift */; };
@@ -38,11 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		852F83B92BD9090F009109D0 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		859BA7F62BD6695C00485E58 /* gameapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gameapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859BA7F92BD6695C00485E58 /* gameappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameappApp.swift; sourceTree = "<group>"; };
 		859BA7FB2BD6695C00485E58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		859BA7FD2BD6695E00485E58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		859BA8002BD6695E00485E58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		859BA8062BD6695E00485E58 /* gameappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		859BA80A2BD6695E00485E58 /* gameappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameappTests.swift; sourceTree = "<group>"; };
 		859BA8102BD6695E00485E58 /* gameappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,17 +101,9 @@
 				859BA7F92BD6695C00485E58 /* gameappApp.swift */,
 				859BA7FB2BD6695C00485E58 /* ContentView.swift */,
 				859BA7FD2BD6695E00485E58 /* Assets.xcassets */,
-				859BA7FF2BD6695E00485E58 /* Preview Content */,
+				852F83B92BD9090F009109D0 /* SettingView.swift */,
 			);
 			path = gameapp;
-			sourceTree = "<group>";
-		};
-		859BA7FF2BD6695E00485E58 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				859BA8002BD6695E00485E58 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		859BA8092BD6695E00485E58 /* gameappTests */ = {
@@ -235,7 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				859BA8012BD6695E00485E58 /* Preview Assets.xcassets in Resources */,
 				859BA7FE2BD6695E00485E58 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				859BA7FC2BD6695C00485E58 /* ContentView.swift in Sources */,
+				852F83BA2BD9090F009109D0 /* SettingView.swift in Sources */,
 				859BA7FA2BD6695C00485E58 /* gameappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
