@@ -60,6 +60,13 @@ struct ContentView: View {
                         .background(Color.green)
                     }
                     
+                    ZStack {
+                        Image("app-image-1")
+                            .resizable()
+                            .frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+                            
+                    }
+                    
                 }
                 
             }
