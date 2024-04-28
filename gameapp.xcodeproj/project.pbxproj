@@ -13,6 +13,7 @@
 		855947BF2BDD2CC2002DA666 /* LocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855947BE2BDD2CC2002DA666 /* LocalData.swift */; };
 		855947C12BDD3AFD002DA666 /* VideoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855947C02BDD3AFD002DA666 /* VideoDetailsView.swift */; };
 		855947C52BDE5498002DA666 /* StoreRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855947C42BDE5498002DA666 /* StoreRoom.swift */; };
+		855947C72BDE680D002DA666 /* StoreDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855947C62BDE680D002DA666 /* StoreDataView.swift */; };
 		859BA7FA2BD6695C00485E58 /* gameappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BA7F92BD6695C00485E58 /* gameappApp.swift */; };
 		859BA7FC2BD6695C00485E58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859BA7FB2BD6695C00485E58 /* ContentView.swift */; };
 		859BA7FE2BD6695E00485E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859BA7FD2BD6695E00485E58 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		855947BE2BDD2CC2002DA666 /* LocalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalData.swift; sourceTree = "<group>"; };
 		855947C02BDD3AFD002DA666 /* VideoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsView.swift; sourceTree = "<group>"; };
 		855947C42BDE5498002DA666 /* StoreRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreRoom.swift; sourceTree = "<group>"; };
+		855947C62BDE680D002DA666 /* StoreDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDataView.swift; sourceTree = "<group>"; };
 		859BA7F62BD6695C00485E58 /* gameapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gameapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859BA7F92BD6695C00485E58 /* gameappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameappApp.swift; sourceTree = "<group>"; };
 		859BA7FB2BD6695C00485E58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
@@ -117,6 +119,7 @@
 				855947BC2BDD11C6002DA666 /* CalculatorView.swift */,
 				855947BE2BDD2CC2002DA666 /* LocalData.swift */,
 				855947C02BDD3AFD002DA666 /* VideoDetailsView.swift */,
+				855947C62BDE680D002DA666 /* StoreDataView.swift */,
 			);
 			path = gameapp;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				855947C52BDE5498002DA666 /* StoreRoom.swift in Sources */,
 				855947BD2BDD11C6002DA666 /* CalculatorView.swift in Sources */,
 				855947BB2BDA9AD8002DA666 /* ViewOne.swift in Sources */,
+				855947C72BDE680D002DA666 /* StoreDataView.swift in Sources */,
 				855947BF2BDD2CC2002DA666 /* LocalData.swift in Sources */,
 				852F83BA2BD9090F009109D0 /* SettingView.swift in Sources */,
 				859BA7FA2BD6695C00485E58 /* gameappApp.swift in Sources */,
@@ -375,6 +379,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -415,6 +420,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -428,6 +434,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -535,6 +542,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nec.gameappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -552,6 +560,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nec.gameappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

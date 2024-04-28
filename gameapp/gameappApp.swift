@@ -8,12 +8,15 @@
 
 import SwiftUI
 import SwiftData
+
 @main
 struct gameappApp : App {
     var body: some Scene {
         WindowGroup {
-           ContentView()
+//           ContentView()
+            StoreDataView()
         }
         .modelContainer(for: StoreRoom.self)
+        
     }
 }
