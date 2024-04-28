@@ -7,11 +7,13 @@
 
 
 import SwiftUI
+import SwiftData
 @main
 struct gameappApp : App {
     var body: some Scene {
         WindowGroup {
-           CalculatorView()
+           ContentView()
         }
+        .modelContainer(for: StoreRoom.self)
     }
 }
